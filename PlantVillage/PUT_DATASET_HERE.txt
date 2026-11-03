@@ -1,0 +1,10 @@
+Put the dataset class folders directly inside this folder, like:
+
+PlantVillage/
+    Apple___Apple_scab/
+    Apple___healthy/
+    Tomato___Late_blight/
+    Tomato___healthy/
+    ... (one folder per class, images inside)
+
+Do NOT leave an extra nested folder (e.g. PlantVillage/PlantVillage/...).
