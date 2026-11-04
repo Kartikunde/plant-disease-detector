@@ -15,13 +15,6 @@ plant-disease-detector/
 └── README.md
 ```
 
-## Step 1: Install requirements
-
-1. Install **Python 3.10, 3.11 or 3.12** (64-bit) from python.org.
-   During install, tick **"Add Python to PATH"**.
-   (TensorFlow does NOT work on Python 3.13+ in many setups, so avoid it.)
-2. Install **VS Code** and its **Python** extension (publisher: Microsoft).
-
 ## Step 2: Open the project in VS Code
 
 1. Unzip `plant-disease-detector.zip`.
