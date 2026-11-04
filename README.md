@@ -15,12 +15,6 @@ plant-disease-detector/
 └── README.md
 ```
 
-## Step 2: Open the project in VS Code
-
-1. Unzip `plant-disease-detector.zip`.
-2. VS Code -> **File -> Open Folder** -> select the `plant-disease-detector` folder.
-3. Open the terminal: **Terminal -> New Terminal** (Ctrl + `).
-
 ## Step 3: Create a virtual environment
 
 **Windows (PowerShell):**
