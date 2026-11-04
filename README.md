@@ -15,34 +15,6 @@ plant-disease-detector/
 └── README.md
 ```
 
-## Step 3: Create a virtual environment
-
-**Windows (PowerShell):**
-```
-python -m venv venv
-venv\Scripts\activate
-```
-If activation is blocked, run once:
-`Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` and try again.
-
-**Mac / Linux:**
-```
-python3 -m venv venv
-source venv/bin/activate
-```
-
-You should see `(venv)` at the start of the terminal line.
-If VS Code asks to use the new environment, click **Yes**. Otherwise press
-Ctrl+Shift+P -> **Python: Select Interpreter** -> choose the one inside `venv`.
-
-## Step 4: Install libraries
-
-```
-pip install --upgrade pip
-pip install -r requirements.txt
-```
-This takes a few minutes (TensorFlow is large).
-
 ## Step 5: Download the dataset
 
 1. Go to Kaggle and search **"PlantVillage dataset"** (about 54,000 images, 38 classes).
@@ -53,7 +25,6 @@ This takes a few minutes (TensorFlow is large).
    Some versions contain `color`, `grayscale`, `segmented` subfolders. Use the
    **color** folder's contents.
 
-Tip: for a quick test, keep only 3-5 classes first so training finishes fast.
 
 ## Step 6: Train the model
 
@@ -75,23 +46,6 @@ Your browser opens at http://localhost:8501. Upload a leaf photo (.jpg/.png)
 and see the prediction, confidence and top 3 results.
 Stop the app with Ctrl+C in the terminal.
 
-## Troubleshooting
-
-| Problem | Fix |
-|---|---|
-| `python` not recognized | Reinstall Python with "Add to PATH", restart VS Code |
-| `No matching distribution found for tensorflow` | Use Python 3.10-3.12, 64-bit |
-| `Found 0 files belonging to 0 classes` | Dataset folder is empty or nested one level too deep |
-| `FileNotFoundError: plant_model.keras` | Run `python train.py` first |
-| Training too slow | Reduce `EPOCHS` or use fewer classes / images |
-| `streamlit` not recognized | Activate the venv first (`venv\Scripts\activate`) |
-| Wrong predictions on phone photos | PlantVillage has clean backgrounds; use a close, well-lit photo of one leaf on a plain background |
-
-## Settings you can change (in train.py)
-
-- `EPOCHS = 5`: more epochs can improve accuracy
-- `BATCH = 32`: lower to 16 if you run out of memory
-- `DATA_DIR = "PlantVillage"`: dataset folder
 
 ## Project report ideas
 
