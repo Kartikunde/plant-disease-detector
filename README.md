@@ -3,6 +3,8 @@
 Upload a leaf photo and a CNN (MobileNetV2 transfer learning) predicts the plant
 disease. Trained on the PlantVillage dataset (38 classes).
 
+<img width="1133" height="910" alt="Screenshot 2026-11-03 101322" src="https://github.com/user-attachments/assets/12c48d74-044d-434c-ae13-b5e82a9e08d9" />
+
 ## Project structure
 
 ```
@@ -15,7 +17,7 @@ plant-disease-detector/
 └── README.md
 ```
 
-## Step 5: Download the dataset
+## Step 1: Download the dataset
 
 1. Go to Kaggle and search **"PlantVillage dataset"** (about 54,000 images, 38 classes).
    A free Kaggle account is needed.
@@ -26,7 +28,7 @@ plant-disease-detector/
    **color** folder's contents.
 
 
-## Step 6: Train the model
+## Step 2: Train the model
 
 ```
 python train.py
@@ -37,7 +39,7 @@ Or use the **Run and Debug** panel (Ctrl+Shift+D) -> "Train model" -> green play
 - At the end it prints validation accuracy and creates
   `plant_model.keras` and `class_names.json`.
 
-## Step 7: Run the web app
+## Step 3: Run the web app
 
 ```
 streamlit run app.py
@@ -46,6 +48,7 @@ Your browser opens at http://localhost:8501. Upload a leaf photo (.jpg/.png)
 and see the prediction, confidence and top 3 results.
 Stop the app with Ctrl+C in the terminal.
 
+<img width="1917" height="1013" alt="Screenshot 2026-11-03 101243" src="https://github.com/user-attachments/assets/9ce6a956-fd0e-4561-bf6a-4326dfadcb57" />
 
 ## Project report ideas
 
