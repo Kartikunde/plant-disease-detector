@@ -1,6 +1,6 @@
 # Plant Disease Detection (CNN + Streamlit)
 
-Upload a leaf photo and a CNN (MobileNetV2 transfer learning) predicts the plant
+Upload a leaf photo and a CNN predicts the plant
 disease. Trained on the PlantVillage dataset (38 classes).
 
 <img width="1133" height="910" alt="Screenshot 2026-11-03 101322" src="https://github.com/user-attachments/assets/12c48d74-044d-434c-ae13-b5e82a9e08d9" />
