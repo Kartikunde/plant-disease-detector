@@ -22,8 +22,7 @@ plant-disease-detector/
 1. Go to Kaggle and search **"PlantVillage dataset"** (about 54,000 images, 38 classes).
    A free Kaggle account is needed.
 2. Download and unzip it.
-3. Move the class folders into the `PlantVillage/` folder of this project
-   (see `PlantVillage/PUT_DATASET_HERE.txt`).
+3. Move the class folders into the `PlantVillage/` folder of this project.
    Some versions contain `color`, `grayscale`, `segmented` subfolders. Use the
    **color** folder's contents.
 
