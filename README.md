@@ -23,8 +23,6 @@ plant-disease-detector/
    A free Kaggle account is needed.
 2. Download and unzip it.
 3. Move the class folders into the `PlantVillage/` folder of this project.
-   Some versions contain `color`, `grayscale`, `segmented` subfolders. Use the
-   **color** folder's contents.
 
 
 ## Step 2: Train the model
