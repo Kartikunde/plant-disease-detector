@@ -43,7 +43,6 @@ streamlit run app.py
 ```
 Your browser opens at http://localhost:8501. Upload a leaf photo (.jpg/.png)
 and see the prediction, confidence and top 3 results.
-Stop the app with Ctrl+C in the terminal.
 
 <img width="1917" height="1013" alt="Screenshot 2026-11-03 101243" src="https://github.com/user-attachments/assets/9ce6a956-fd0e-4561-bf6a-4326dfadcb57" />
 
